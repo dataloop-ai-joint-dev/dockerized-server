@@ -2,14 +2,10 @@
 A Docker with API server that receives image as an input, send it to a model for prediction, and sends the model 
 results in json format.
 
-**Notice:** Make sure to update the requested `host` and `port` in the file: `Dockerfile` inside the repository, 
-before building the docker image: 
-1. `EXPOSE 9000` - (line 14)
-2. `CMD ["python", "app.py", "--host=0.0.0.0", "--port=9000"]` - (line 17)
+The solution also comes with a tests script that parses the API server results and upload them to the dataloop platform.
 
 ### Install the Application
-See the sections: `Prerequisite`, `How to Run Locally` and `How to Run Remotely` in the `README.md` file of this 
-repository.
+Follow the instructions under the [repository README file](https://github.com/dataloop-ai-joint-dev/dockerized-server/blob/master/README.md).
 
 ### Technology
 * Python
