@@ -1,0 +1,5 @@
+dtlpy
+requests
+fastapi
+uvicorn
+python-multipart
