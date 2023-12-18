@@ -8,7 +8,7 @@ before building the docker image:
 2. `CMD ["python", "app.py", "--host=0.0.0.0", "--port=9000"]` - (line 17)
 
 ### Install the Application
-Please reach out to your Dataloop Customer Success manager to get the application installed in your project.
+See the sections: `How to Run Locally` and `How to Run Remotely` in the `README.md` repository file.
 
 ### Technology
 * Python
