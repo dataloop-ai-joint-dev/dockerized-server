@@ -8,7 +8,8 @@ before building the docker image:
 2. `CMD ["python", "app.py", "--host=0.0.0.0", "--port=9000"]` - (line 17)
 
 ### Install the Application
-See the sections: `How to Run Locally` and `How to Run Remotely` in the `README.md` repository file.
+See the sections: `Prerequisite`, `How to Run Locally` and `How to Run Remotely` in the `README.md` file of this 
+repository.
 
 ### Technology
 * Python
